@@ -2,6 +2,7 @@ $(document).ready(function () {
     $('#btnDelete').click(deleteTown);
     $('#btnAdd').click(addTown);
     $('#btnShuffle').click(shuffleTowns);
+    $('#btnAdd').click(addTown);
 });
 
 function deleteTown() {
